@@ -1,13 +1,113 @@
+:root {
+  --title-font: 'Vibes', cursive;
+  --heading-font: 'Lexend Deca', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
+  --beige: #FFF3D9;
+}
+
+/* for the index */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #F2F6FF;
+  font-family: 'Lato', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  background-color: #F2F6FF;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  background-color: #F2F6FF;
+  text-align: center;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px 8px 15px;
+  border-radius: 15px;
+  font-size: 16px;
+  text-align: center;
+  font-family: var(--heading-font);
+  margin-right: 10px;
+  margin-top: 5px;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+/* Button Colors */
+.beige-button {
+  background:var(--beige);
+}
+.green-button {
+  background:var(--green);
+}
+.blue-button {
+  background:var(--blue);
+}
+.red-button {
+  background:var(--red);
+}
+
+.button:hover {
+  background: var(--darkgray);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+a:hover:not(.button) {
+  color: var(--darkgray);
+  cursor: pointer;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0 30px;
+}
+
+h2 {
+  font-family: var(--heading-font);
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: var(--heading-font);
+} 
+
+p {
+  font-family: var(--body-font);
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 20px;
+}
+
+button {
+  border: none;
 }

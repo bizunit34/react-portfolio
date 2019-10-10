@@ -1,0 +1,34 @@
+.self-pic {
+  width: 200px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.headline-text {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Mali', cursive;
+}
+
+.text-box {
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 400px) {
+
+  .headline-text {
+      width: 400px;
+  }
+  
+  .text-box {
+      max-width: 650px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .text-box {
+      max-width: 900px;
+  }
+}

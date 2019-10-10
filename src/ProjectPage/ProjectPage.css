@@ -1,0 +1,68 @@
+.card-title {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.card-styling {
+  margin: 20px;
+  
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+h4 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.headline-area {
+  text-align: center;
+}
+
+.small-table {
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+th {
+   width: 20px;
+}
+
+tr {
+  border-bottom: 1px solid lightgrey;
+}
+
+@media only screen and (min-width: 400px) {
+  .small-table {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+   }
+}
+
+@media only screen and (min-width: 600px) {
+  .small-table {
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+   }
+}

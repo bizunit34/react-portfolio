@@ -1,0 +1,26 @@
+.footer-name {
+  font-size: 15px;
+  margin: 8px 0 0 5px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.contact-list-footer, .navigation-list-footer {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.contact-list, .contact-list-footer {
+  margin-right: 5px;
+}
+
+@media only screen and (min-width: 400px) {
+
+  .footer-name {
+      font-size: 22px;
+      margin: 5px 0 0 10px;
+  }
+
+  .navigation-list-footer {
+    margin-right: 85px;
+  }
+}
