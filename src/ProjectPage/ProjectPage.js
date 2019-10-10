@@ -8,7 +8,7 @@ function ProjectPage() {
       <section className="projects-section">
             <h2>Projects</h2>
             <div className="project-cards">
-                <div class="card card-styling" style="width: 18rem;">
+                <div class="card card-styling" style={{width: 18 + 'rem'}}>
                     <img class="card-img-top" src={require("../images/sprout-app.png")} alt="A browser screenshot of the Sprout App" />
                     <h5 class="card-title">Sprout</h5>
                     <div class="card-body">

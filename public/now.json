@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "Chris_Potfolio_Page",
-  "alias": "Chris_Potfolio_Page",
+  "name": "chrism-portfolio",
+  "alias": "chrism-portfolio",
   "routes": [
     {
       "src": "^/static/(.*)",

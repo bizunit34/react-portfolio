@@ -14,7 +14,7 @@ function LandingPage() {
               </p>
             </div>
           </Link>
-          <Link to='/aboutme'>
+          <Link to='/projects'>
             <div className="bottom-circle grow">
               <p className='projects'>
               Projects
