@@ -9,7 +9,9 @@ function ProjectPage() {
             <h2>Projects</h2>
             <div className="project-cards">
                 <div class="card card-styling" style={{width: 18 + 'rem'}}>
-                    <img class="card-img-top" src={require("../images/sprout-app.png")} alt="A browser screenshot of the Sprout App" />
+                    <a href="https://sprout-app.now.sh/" rel="noopener noreferrer" target="_blank">
+                        <img class="card-img-top" src={require("../images/sprout-app.png")} alt="A browser screenshot of the Sprout App" />
+                    </a>
                     <h5 class="card-title">Sprout</h5>
                     <div class="card-body">
                         <h6 class="card-text">Sprout is a formative assessment tool used to help 
@@ -31,7 +33,9 @@ function ProjectPage() {
                     <a href="https://github.com/thinkful-ei-emu/ZOMGPOW-Client" rel="noopener noreferrer" class="btn btn-primary" target="_blank">Repo</a>
                 </div>
                 <div className="card card-styling" style={{width: 18 + 'rem'}}>
-                    <img className="card-img-top" src={require("../images/dashboard.png")} alt="A browser screenshot of the Spaced Repetition App" />
+                    <a href="https://spaced-repetition-cr.now.sh/" rel="noopener noreferrer" target="_blank">
+                        <img className="card-img-top" src={require("../images/dashboard.png")} alt="A browser screenshot of the Spaced Repetition App" />
+                    </a>
                     <h5 className="card-title">Spaced Repetition</h5>
                     <div className="card-body">
                         <h6 className="card-text">Lets the user create spaced repetition flash card 
@@ -53,7 +57,9 @@ function ProjectPage() {
                     <a href="https://github.com/thinkful-ei-emu/spaced-repetition-client-CP3" className="btn btn-primary" rel="noopener noreferrer" target="_blank">Repo</a>
                 </div>
                 <div className="card card-styling" style={{width: 18 + 'rem'}}>
-                    <img className="card-img-top" src={require("../images/MB_Landing.jpg")} alt="A browser screenshot of the Bookmark storing applicaiton" />
+                    <a href="https://chris-mobile-bookshelf-app.now.sh" rel="noopener noreferrer" target="_blank">
+                        <img className="card-img-top" src={require("../images/MB_Landing.jpg")} alt="A browser screenshot of the Bookmark storing applicaiton" />
+                    </a>
                     <h5 className="card-title">Mobile Bookshelf</h5>
                     <div className="card-body">
                         <h6 className="card-text">Mobile Bookshelf  allows users to compile information on all 
@@ -74,7 +80,9 @@ function ProjectPage() {
                     <a href="https://github.com/thinkful-ei-emu/chris-capstone1-client" className="btn btn-primary" rel="noopener noreferrer" target="_blank">Repo</a>
                 </div>
                 <div className="card card-styling" style={{width: 18 + 'rem'}}>
-                    <img className="card-img-top" src={require("../images/BookmarkApp.jpg")} alt="A browser screenshot of the Bookmark storing applicaiton" />
+                    <a href="https://thinkful-ei-emu.github.io/Bookmark-App-Chris-M/" rel="noopener noreferrer" target="_blank">
+                        <img className="card-img-top" src={require("../images/BookmarkApp.jpg")} alt="A browser screenshot of the Bookmark storing applicaiton" />
+                    </a>
                     <h5 className="card-title">Bookmark App</h5>
                     <div className="card-body">
                         <p className="card-text">A simple bookmark saving app that tests API 
@@ -89,7 +97,7 @@ function ProjectPage() {
                                 <img className="logo" id="JavaScript" alt="JavaScript" src={require("../images/javascript-logo.png")} />
                             </li>
                             <li className="list-group-item">
-                                <img className="logo" id="Nodejs" alt="Nodejs" src="images/nodejs-logo.png" />
+                                <img className="logo" id="Nodejs" alt="Nodejs" src={require("../images/nodejs-logo.png")} />
                             </li>
                         </ul>
                     </div>

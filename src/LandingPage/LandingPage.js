@@ -23,9 +23,10 @@ function LandingPage() {
           </Link>
         </div>
         <div className='home-text'>
-          <p>
-            <b>My name is Chris Martin.</b>
-          </p>
+          <p><b>My name is:</b></p>
+          <h1>
+            Chris Martin
+          </h1>
           <p> I’m a full-stack software engineer who loves collaborating with diverse 
             teams and individuals to make something beautiful. My enthusiasm for 
             learning pushes me to grow through failure and success.

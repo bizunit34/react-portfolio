@@ -4,7 +4,6 @@ import LandingPage from './LandingPage/LandingPage';
 import ProjectPage from './ProjectPage/ProjectPage';
 import AboutMePage from './AboutMePage/AboutMePage';
 import Header from './Header/Header';
-import Footer from './Footer/Footer';
 import './App.css';
 
 class App extends React.Component {
@@ -30,9 +29,6 @@ class App extends React.Component {
             />
           </Switch>
         </main>
-        <footer className='page-footer'>
-          <Footer />
-        </footer>
       </div>
     );
   }
