@@ -11,3 +11,26 @@
 .contact-list, .navigation-list {
   margin-top: 10px;
 }
+
+.contact-list {
+    margin-right: 10px;
+}
+
+.navigation-list {
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 370px) {
+  .logo-name {
+    display: block;
+  }
+
+  .logo {
+    height: 40px;
+    margin: 2px 0 0 0;
+  }
+
+  .contact-list, .navigation-list {
+    margin: 10px 5px 0 0;
+  }
+}

@@ -142,37 +142,44 @@ function ProjectPage() {
                         <tr>
                             <td>HTML</td>
                             <td>Node.js</td>
-                            <td>PostgreSQL</td>
+                            <td>MySQL</td>
                             <td>Git</td>
                             <td>Jest</td>
                         </tr>
                         <tr>
                         <td>CSS</td>
-                        <td></td>
-                        <td></td>
-                        <td>Slack</td>
+                        <td>Java</td>
+                        <td>PostgreSQL</td>
+                        <td>Pipelines</td>
                         <td>Enzyme</td>
+                        </tr>
+                        <tr>
+                        <td>Angular</td>
+                        <td>Python</td>
+                        <td>MongoDb</td>
+                        <td>Jira</td>
+                        <td>Chai</td>
                         </tr>
                         <tr>
                         <td>React.js</td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td>Chai</td>
+                        <td>Bitbucket</td>
+                        <td>Mocha</td>
                         </tr>
                         <tr>
                         <td>jQuery</td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td>Mocha</td>
+                        <td>Slack</td>
+                        <td>Chrome Dev Tools</td>
                         </tr>
                         <tr>
                         <td>Bootstrap</td>
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>Chrome Dev Tools</td>
+                        <td></td>
                         </tr>
                     </tbody>
                 </Table>

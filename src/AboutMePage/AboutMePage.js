@@ -40,9 +40,11 @@ function AboutMePage() {
         </div>
         <div className='flex-center'>
           <p className='text-box future'>It sounded perfect, so I joined a full-stack Bootcamp where I’ve grown my 
-            appreciation for languages like HTML, CSS, and JavaScript. Now I strive to continue learning more and refining my skills. I’m 
-            excited to see how I can continue to create something beautiful and 
-            useful for everyone around me.</p>
+            appreciation for various languages and frameworks that I've been introduced and continue to grow my skills. Five years one
+            from that bootcamp and I'm still loving the process of learning and the growth that I've been able to see in myself.</p>
+        </div>
+        <div className='flex-center'>
+          <p className='text-box future'>As I continue this journey, I look forward to what life has in store for me.</p>
         </div>
       </section>
     </>
