@@ -1,6 +1,7 @@
 {
   "name": "chrism-portfolio",
   "version": "0.1.0",
+  "homepage": "https://bizunit34.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
