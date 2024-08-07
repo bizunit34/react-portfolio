@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <header className='page-header'>
-          <Header />
+          <Header/>
         </header>
         <main className='page-main'>
           <Switch>
@@ -30,6 +30,10 @@ class App extends React.Component {
             <Route 
               path='/aboutme'
               component={AboutMePage}
+            />
+            <Route 
+              path='*'
+              component={LandingPage}
             />
           </Switch>
         </main>
