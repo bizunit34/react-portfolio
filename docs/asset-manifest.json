@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c23fe1e2.css",
+    "main.js": "/react-portfolio/static/js/main.976cf1de.js",
+    "static/media/self-pic.jpg": "/react-portfolio/static/media/self-pic.d664289d46af7c6906a4.jpg",
+    "static/media/BookmarkApp.jpg": "/react-portfolio/static/media/BookmarkApp.c3e2595564211dcaf4c0.jpg",
+    "static/media/dashboard.png": "/react-portfolio/static/media/dashboard.a6115fd0faca0c605e7f.png",
+    "static/media/QuizApp.jpg": "/react-portfolio/static/media/QuizApp.5db89f65cfa6792fff4c.jpg",
+    "static/media/MB_Landing.jpg": "/react-portfolio/static/media/MB_Landing.df90f3ceec2a9bd0e0a1.jpg",
+    "static/media/sprout-app.png": "/react-portfolio/static/media/sprout-app.2fe0732656418300a9e6.png",
+    "static/media/Chris+Steph2.jpg": "/react-portfolio/static/media/Chris+Steph2.8def69d75485c10d8aff.jpg",
+    "static/media/nodejs-logo.png": "/react-portfolio/static/media/nodejs-logo.31d8e0ee14e1acccca54.png",
+    "static/media/logo.png": "/react-portfolio/static/media/logo.2d525d5f97ea9430d8ce.png",
+    "static/media/javascript-logo.png": "/react-portfolio/static/media/javascript-logo.dcd2953c3a5015560032.png",
+    "static/media/JQuery_logo.png": "/react-portfolio/static/media/JQuery_logo.6d21b03da51ae6cea3ba.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.c23fe1e2.css.map": "/react-portfolio/static/css/main.c23fe1e2.css.map",
+    "main.976cf1de.js.map": "/react-portfolio/static/js/main.976cf1de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c23fe1e2.css",
+    "static/js/main.976cf1de.js"
+  ]
+}
