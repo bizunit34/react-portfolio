@@ -9,9 +9,9 @@ function Footer() {
         <p className='footer-name'>( ...Chris Martin )</p>
       </div>
       <DropdownButton size='sm' variant='secondary' className='navigation-list-footer' id='dropdown-basic-button' title='Navigation'>
-        <Dropdown.Item href='/'>Home</Dropdown.Item>
-        <Dropdown.Item href='/about-me'>About Me</Dropdown.Item>
-        <Dropdown.Item href='/projects'>Projects</Dropdown.Item>
+        <Dropdown.Item href='./'>Home</Dropdown.Item>
+        <Dropdown.Item href='./about-me'>About Me</Dropdown.Item>
+        <Dropdown.Item href='./projects'>Projects</Dropdown.Item>
       </DropdownButton>
       <DropdownButton size='sm' variant='secondary' className='contact-list-footer' id='dropdown-basic-button' title='Contact Me'>
         <Dropdown.Item target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/chrisdmartin-18/'>LinkedIn</Dropdown.Item>
