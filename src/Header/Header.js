@@ -19,9 +19,9 @@ function Header() {
 
       
       <DropdownButton size='sm' variant='secondary' className='navigation-list' id='dropdown-basic-button' title='Navigation'>
-        <Dropdown.Item href='/react-portfolio/'>Home</Dropdown.Item>
-        <Dropdown.Item href='/react-portfolio/aboutme'>About Me</Dropdown.Item>
-        <Dropdown.Item href='/react-portfolio/projects'>Projects</Dropdown.Item>
+        <Dropdown.Item href='/'>Home</Dropdown.Item>
+        <Dropdown.Item href='/about-me'>About Me</Dropdown.Item>
+        <Dropdown.Item href='/projects'>Projects</Dropdown.Item>
       </DropdownButton>
       <DropdownButton size='sm' variant='secondary' className='contact-list' id='dropdown-basic-button' title='Contact Me'>
         <Dropdown.Item target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/chrisdmartin-18/'><FontAwesomeIcon className='icon-link' color='black' icon={['fab', 'linkedin']} /> LinkedIn</Dropdown.Item>

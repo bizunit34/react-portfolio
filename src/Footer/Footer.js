@@ -10,7 +10,7 @@ function Footer() {
       </div>
       <DropdownButton size='sm' variant='secondary' className='navigation-list-footer' id='dropdown-basic-button' title='Navigation'>
         <Dropdown.Item href='/'>Home</Dropdown.Item>
-        <Dropdown.Item href='/aboutme'>About Me</Dropdown.Item>
+        <Dropdown.Item href='/about-me'>About Me</Dropdown.Item>
         <Dropdown.Item href='/projects'>Projects</Dropdown.Item>
       </DropdownButton>
       <DropdownButton size='sm' variant='secondary' className='contact-list-footer' id='dropdown-basic-button' title='Contact Me'>

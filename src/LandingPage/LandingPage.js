@@ -7,14 +7,14 @@ function LandingPage() {
     <>
       <section className='home-section'>
         <div className='home-navigation'>
-          <Link to='/react-portfolio/aboutme'>
+          <Link to='/about-me'>
             <div className="top-circle grow">
               <p className='about-me'>
                 About Me
               </p>
             </div>
           </Link>
-          <Link to='/react-portfolio/projects'>
+          <Link to='/projects'>
             <div className="bottom-circle grow">
               <p className='projects'>
               Projects
