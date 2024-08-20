@@ -28,20 +28,14 @@ function Header() {
         id="dropdown-basic-button"
         title="Navigation"
       >
-        <Dropdown.Item className="navigation">
-          <Link to="/projects" style={{ textDecoration: "none" }}>
+        <Dropdown.Item href="./" className="navigation">
             Home
-          </Link>
         </Dropdown.Item>
-        <Dropdown.Item className="navigation">
-          <Link to="/about-me" style={{ textDecoration: "none" }}>
+        <Dropdown.Item href="./about-me" className="navigation">
             About Me
-          </Link>
         </Dropdown.Item>
-        <Dropdown.Item className="navigation">
-          <Link to="/projects" style={{ textDecoration: "none" }}>
+        <Dropdown.Item href="./projects" className="navigation">
             Projects
-          </Link>
         </Dropdown.Item>
       </DropdownButton>
       <DropdownButton

@@ -8,24 +8,27 @@
   margin: 2px 0 0 15px;
 }
 
-.contact-list, .navigation-list {
+.contact-list,
+.navigation-list {
   margin-top: 10px;
 }
 
 .contact-list {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .navigation-list {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .navigation {
-  color: black;
+  a {
+    color: black !important;
+  }
 }
 
 .navigation:hover {
-  background-color: #FFF3D9 !important;
+  background-color: #fff3d9 !important;
 }
 
 @media only screen and (max-width: 370px) {
@@ -38,7 +41,8 @@
     margin: 2px 0 0 0;
   }
 
-  .contact-list, .navigation-list {
+  .contact-list,
+  .navigation-list {
     margin: 10px 5px 0 0;
   }
 }
