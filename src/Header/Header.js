@@ -10,7 +10,7 @@ function Header() {
     <>
       <div className="logo-name">
         <p className="header">
-          <Link to="/react-portfolio/">
+          <Link to="/">
             <img
               className="logo"
               id="LinkedIn"
@@ -28,13 +28,13 @@ function Header() {
         id="dropdown-basic-button"
         title="Navigation"
       >
-        <Dropdown.Item href="./" className="navigation">
+        <Dropdown.Item tag={Link} as={Link} to="/" className="navigation">
             Home
         </Dropdown.Item>
-        <Dropdown.Item href="./about-me" className="navigation">
+        <Dropdown.Item tag={Link} as={Link} to="/about-me" className="navigation">
             About Me
         </Dropdown.Item>
-        <Dropdown.Item href="./projects" className="navigation">
+        <Dropdown.Item tag={Link} as={Link} to="/projects" className="navigation">
             Projects
         </Dropdown.Item>
       </DropdownButton>

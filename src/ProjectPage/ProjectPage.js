@@ -8,13 +8,13 @@ function ProjectPage() {
       <section className="projects-section">
             <h2>Projects</h2>
             <div className="project-cards">
-                <div class="card card-styling" style={{width: 18 + 'rem'}}>
+                <div className="card card-styling" style={{width: 18 + 'rem'}}>
                     <a href="https://sprout-app.now.sh/" rel="noopener noreferrer" target="_blank">
-                        <img class="card-img-top" src={require("../images/sprout-app.png")} alt="A browser screenshot of the Sprout App" />
+                        <img className="card-img-top" src={require("../images/sprout-app.png")} alt="A browser screenshot of the Sprout App" />
                     </a>
-                    <h5 class="card-title">Sprout</h5>
-                    <div class="card-body">
-                        <h6 class="card-text">Sprout is a formative assessment tool used to help 
+                    <h5 className="card-title">Sprout</h5>
+                    <div className="card-body">
+                        <h6 className="card-text">Sprout is a formative assessment tool used to help 
                             teachers deliver specific, goal-oriented, and timely feedback in the 
                             classroom. This project was in collaboration with 5 other developers.</h6>
                         <ul className="list-group list-group-flush">
@@ -29,8 +29,8 @@ function ProjectPage() {
                             </li>
                         </ul>
                     </div>
-                    <a href="https://sprout-app.now.sh/" class="btn btn-primary" rel="noopener noreferrer" target="_blank">Live App</a>
-                    <a href="https://github.com/thinkful-ei-emu/ZOMGPOW-Client" rel="noopener noreferrer" class="btn btn-primary" target="_blank">Repo</a>
+                    <a href="https://sprout-app.now.sh/" className="btn btn-primary" rel="noopener noreferrer" target="_blank">Live App</a>
+                    <a href="https://github.com/thinkful-ei-emu/ZOMGPOW-Client" rel="noopener noreferrer" className="btn btn-primary" target="_blank">Repo</a>
                 </div>
                 <div className="card card-styling" style={{width: 18 + 'rem'}}>
                     <a href="https://spaced-repetition-cr.now.sh/" rel="noopener noreferrer" target="_blank">
