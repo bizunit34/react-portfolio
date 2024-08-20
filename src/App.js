@@ -20,15 +20,15 @@ class App extends React.Component {
         <main className='page-main'>
           <Switch>
             <Route 
-              exact path='/'
+              exact path='/react-portfolio/'
               component={LandingPage}
             />
             <Route 
-              path='/projects'
+              path='/react-portfolio/projects'
               component={ProjectPage}
             />
             <Route 
-              path='/aboutme'
+              path='/react-portfolio/aboutme'
               component={AboutMePage}
             />
             <Route 
